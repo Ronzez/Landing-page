@@ -18,6 +18,11 @@ header {
     color: white;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 nav {
     display: flex;
     gap: 20px;
@@ -26,12 +31,15 @@ nav {
 nav span a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .upper-side {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 60px;
 }
 
 .right-image {
@@ -62,6 +70,8 @@ nav span a {
 
 .left-content p{
     padding: 5px 0 5px 0;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 button {
@@ -78,6 +88,12 @@ button {
     align-items: center;
     padding: 40px;
     gap: 40px;
+}
+
+.mid-side h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .group-of-boxes {
@@ -113,7 +129,7 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
 }
 
 .author-wrapper {
