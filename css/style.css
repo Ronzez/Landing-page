@@ -85,10 +85,60 @@ button {
     gap: 20px;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
 .item .box {
     border: #3882F6 solid 3px;
     padding: 80px;
     border-radius: 10%;
     display: flex;
+}
+
+.lower-side {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+}
+
+.author-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author {
+    align-items: end;
+}
+
+.bluebox-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 50px;
+}
+
+.bluebox-text {
+    padding: 50px 0 50px 0;
+}
+
+.bluebox-text span strong {
+    font-size: 24px;
 }
 
